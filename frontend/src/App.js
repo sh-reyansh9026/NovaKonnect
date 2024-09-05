@@ -7,9 +7,9 @@ import ChatPage from "./pages/ChatPage";
 function App() {
   return (
     <div className="App">
-      <Route path="/" component={Homepage} exact/>
-      <Route path='/chats' component={ChatPage}/>
-      <Button colorScheme="blue">Button</Button>
+      <Route path="/" component={Homepage} exact />
+      <Route path="/chats" component={ChatPage}/>
+    
     </div>
   );
 }
